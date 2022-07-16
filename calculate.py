@@ -1,0 +1,13 @@
+import sys
+first = int(sys.argv[1])
+second = int(sys.argv[2])
+third = int(sys.argv[3])
+fourth = int(sys.argv[4])
+fifth = int(sys.argv[5])
+sixth = int(sys.argv[6])
+seventh = int(sys.argv[7])
+eighth = int(sys.argv[8])
+print(f"{first} + {second} = {first + second}")
+print(f"{third} - {fourth} = {third - fourth}")
+print(f"{fifth} * {sixth} = {fifth * sixth}")
+print(f"{seventh} / {eighth} = {seventh / eighth}")
