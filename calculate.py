@@ -1,13 +1,16 @@
 import sys
 first = int(sys.argv[1])
 second = int(sys.argv[2])
-third = int(sys.argv[3])
-fourth = int(sys.argv[4])
-fifth = int(sys.argv[5])
-sixth = int(sys.argv[6])
-seventh = int(sys.argv[7])
-eighth = int(sys.argv[8])
-print(f"{first} + {second} = {first + second}")
-print(f"{third} - {fourth} = {third - fourth}")
-print(f"{fifth} * {sixth} = {fifth * sixth}")
-print(f"{seventh} / {eighth} = {seventh / eighth}")
+print(f"{first} + {second} = {first + second }")
+print(f"{first} - {second } = {first - second }")
+print(f"{first} * {second } = {first * second }")
+print(f"{first} / {second } = {first / second }")
+
+# Для запуску потрібно використати команду в терміналі:
+# python calculate.py та два аргументи.
+# Наприклад, 
+# python calculate.py 2 2
+# python calculate.py 25 200
+# python calculate.py 5 -10
+# Перше число - це перший аргумент (first) 
+# Друге число - це другий аргумент (second)
